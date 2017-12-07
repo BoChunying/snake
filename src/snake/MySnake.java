@@ -10,8 +10,6 @@ import java.util.ArrayList;
 public class MySnake {
 	
 	Node node  = new Node(20,20,direction.right);
-//	Node node1  = new Node(20,19,direction.right);
-//	Node node2  = new Node(20,18,direction.right);
 	ArrayList<Node> body = new ArrayList<Node>();
 	int index = 0;
 	Node head,tail;
